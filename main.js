@@ -8,7 +8,7 @@ var drinks = ['Tea', 'Milk', 'Water', 'Coffee', 'Juice']
 
 var nation = ['Norw', 'Span', 'Eng', 'Ukran', 'Japan'];
 
-
+console.time('f')
 function possibles(arr) {
 
 var chance = [];
@@ -119,5 +119,7 @@ for (let i = 0; i < ll; i++) { // NATIONS
         }  
     }  
 }
+
+console.timeEnd('f')
 console.log(pos)
 
