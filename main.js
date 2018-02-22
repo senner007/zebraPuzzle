@@ -1,4 +1,53 @@
 'use strict';
+
+// function permutations(arr) {  // USING RECURSION. CAN TAKE AND ANY ARRAY SIZE AS INPUT. IT IS SLOWER
+
+//     var array = []
+//     var count = 0;
+
+//     function perm(a, n) {
+
+//         if (n === 0) {
+//             // console.log('n is 0: ' + arr); 
+//             array.push(a.slice(0));
+//             return true;
+//         }
+//         if (n != 0) {
+
+//             for (let i = 0; i < n; i++) {
+
+//                 count++;
+//                 perm(a, n - 1);
+//                 // console.log(array)
+//                 const j = n % 2 === 0 ? 0 : i;
+//                 [a[j], a[n]] = [a[n], a[j]];
+//                 //   console.log('-switch-')
+//                 //   console.log('n: ' + n)
+//                 //   console.log('i: ' + i)               
+//                 //  console.log('count: ' + count)
+
+//             }
+
+//             // console.log('loop end')
+//             // console.log(perm(a, n - 1))
+//             // console.log(array)
+//             // console.log(n)
+//             return perm(a, n - 1)
+//         }
+//     }
+
+//     perm(arr, arr.length - 1)
+
+//     return array;
+// }
+// console.time('f')
+// var newArr = permutations(['span', 'eng', 'dutch', 'Hung', 'Span']);
+// console.timeEnd('f')
+//console.log(newArr)
+
+
+
+
 console.time('f')
 
 function possibles(arr) {
